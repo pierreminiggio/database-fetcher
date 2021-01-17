@@ -1,0 +1,23 @@
+{
+    "name": "pierreminiggio/database-fetcher",
+    "description": "Interact with a SQL Database",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0.0",
+        "neutronstars/database-sql": "^1.0",
+        "pierreminiggio/database-connection": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\DatabaseFetcher\\": "src/"
+        }
+    },
+    "scripts": {}
+}
